@@ -16,6 +16,7 @@
 
 'use strict';
 
+import { farmhash } from '../utils/farmhash64';
 import {
   AndCondition,
   OneOfCondition,
@@ -25,7 +26,6 @@ import {
   PercentCondition,
   PercentConditionOperator
 } from './remote-config-api';
-import * as farmhash from 'farmhash';
 import long = require('long');
 
 /**

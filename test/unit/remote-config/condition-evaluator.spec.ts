@@ -25,7 +25,7 @@ import {
 } from '../../../src/remote-config/remote-config-api';
 import { v4 as uuidv4 } from 'uuid';
 import { clone } from 'lodash';
-import * as farmhash from 'farmhash';
+import { farmhash } from '../../../src/utils/farmhash64';
 
 const expect = chai.expect;
 
